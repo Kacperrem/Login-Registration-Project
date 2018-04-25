@@ -6,7 +6,6 @@
 	require_once "inc/config.php"; 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,11 +28,12 @@
   			echo date("Y m d");
   		?> 
   		<p>
-  			<a href="/login.php">Login</a>
-  			<a href="/register.php">Register</a>
+  			
+				<a href="/projekt/login.php">Login</a>
+  			<a href="/projekt/register.php">Register</a>
   		</p>
   	</div>
 
-  	<?php require_once "inc/footer.php"; ?> 
+  	<?php require_once "/inc/footer.php"; ?> 
   </body>
 </html>
